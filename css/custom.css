@@ -2070,6 +2070,7 @@ Pricing Table
   font-size: 12px;
   font-weight: 700;
   display: block;
+  line-height: 16px;
 }
 
 .table-info {
@@ -2145,4 +2146,24 @@ Pricing Table
 
 .btn-rounded {
   border-radius: 27px;
+}
+
+.bg-yellow {
+  background-color: #ed9814!important;
+}
+.bg-red{
+  background-color: #ed145b!important;
+}
+.bg-teal{
+  background-color: #00b2ad!important;
+}
+
+.text-red{
+  color: #bd0f48!important;
+}
+.text-yellow{
+  color: #ed9814!important;
+}
+.text-teal{
+  color: #00b2ad!important; 
 }
