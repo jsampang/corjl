@@ -310,15 +310,15 @@ Footer 4
 }
 
 .footer-four .footer-logo {
-    margin: 45px 0 35px;
+    margin: 27px 0 10px;
 }
 .footer-intro p {
-    margin: 0 auto 70px;
+    margin: 0 auto 23px;
 }
 
 @media (min-width: 992px) {
     .footer-intro p {
-        width: 60%;
+        width: 69%;
     }
 }
 

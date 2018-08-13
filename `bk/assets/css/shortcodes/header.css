@@ -156,7 +156,7 @@ Header
 #header.transparent-header .light-header,
 #header.transparent-header .dark-header,
 #header.transparent-header {
-    background: transparent !important;
+    background: #fff !important;
     z-index: 1050;
 }
 
