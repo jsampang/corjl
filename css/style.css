@@ -2041,6 +2041,10 @@ KEY FRAME
     line-height: 62px;
 }
 
+  .tt-nav.sticky .search-trigger i.material-icons2 {
+    line-height: 62px;
+}
+
 
 .search-trigger .search-btn {
     padding: 0;
