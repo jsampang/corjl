@@ -2128,21 +2128,21 @@ Pricing Table
 
 .title-heading-white {
   line-height: 43px;
-  text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
+  /*  text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);*/
   /*    max-width: 531px;*/
-  color: #f1f2f2;
+  color: #000;
   font-size: xx-large;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
   margin: auto;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .title-subheading-white {
   font-size: 18px;
   /*    max-width: 614px;*/
-  color: #f1f2f2;
+  color: #101010;
   margin: auto;
   margin-bottom: 19px;
 }
