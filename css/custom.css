@@ -1,7 +1,6 @@
-/* Corjl.com Custom Style */
+/* === Corjl.com Custom Style === */
 
-
-/* Top Bar --*/
+/* === Top Bar === */
 
 .top-bar {
   height: 46px;
@@ -46,13 +45,11 @@
 
 
 /*light*/
-
 .top-bar .social-top.light a i {
   color: #fff;
 }
 
-
-/*Color Preset for Menu*/
+/* === Color Preset Menu === */
 
 .menuzord .menuzord-menu>li:hover>a,
 .menuzord .menuzord-menu>li:hover>a>i {
@@ -88,10 +85,7 @@
   background-color: transparent;
 }
 
-
-/* ----------------------------------------------------------------
-Header
------------------------------------------------------------------*/
+/* === Header === */
 
 .dark-header.header-bottom-border {
   border-bottom: 1px solid rgba(255, 255, 255, .2);
@@ -195,10 +189,7 @@ Header
   background: #03a9f4 !important;
 }
 
-
-/* ----------------------------------------------------------------
-Top mega menu
------------------------------------------------------------------*/
+/* === Top mega menu === */
 
 .menuzord {
   background: none;
@@ -656,10 +647,7 @@ header.sticky .menuzord-menu>li>a,
   display: block;
 }
 
-
-/*----------------------------------
-Menu appear alt
------------------------------------*/
+/* === Menu appear alt === */
 
 .menu-appear-alt {
   display: none;
@@ -667,10 +655,7 @@ Menu appear alt
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-
-/*----------------------------------
-Floating menu
------------------------------------*/
+/* === Floating menu === */
 
 .floating-menu {
   margin-top: 50px;
@@ -693,10 +678,7 @@ Floating menu
   border-color: transparent;
 }
 
-
-/*----------------------------------
-Nav link boxed
------------------------------------*/
+/* === Nav link boxed === */
 
 .nav-boxed-color .menuzord-menu > li > a {
   margin: 30px 0;
@@ -732,10 +714,7 @@ Nav link boxed
   }
 }
 
-
-/*----------------------------------
-Nav link border box
------------------------------------*/
+/* === Nav link border box ===*/
 
 .nav-border-box .menuzord-menu > li > a {
   margin: 30px 0;
@@ -765,10 +744,7 @@ Nav link border box
   }
 }
 
-
-/* ----------------------------------------------------------------
-Nav link border bottom
------------------------------------------------------------------*/
+/* ===Nav link border bottom === */
 
 .nav-border-bottom .menuzord .menuzord-menu>li>a,
 .nav-border-bottom .menuzord .menuzord-menu>li>a {
@@ -787,10 +763,7 @@ Nav link border bottom
   color: #fff;
 }
 
-
-/* ----------------------------------------------------------------
-Nav center align
------------------------------------------------------------------*/
+/* === Nav center align === */
 
 .nav-center-align {
   text-align: center;
@@ -830,10 +803,7 @@ Nav center align
   padding: 0;
 }
 
-
-/* ----------------------------------------------------------------
-Nav bottom position
------------------------------------------------------------------*/
+/* === Nav bottom position === */
 
 .nav-bottom {
   position: absolute;
@@ -844,10 +814,7 @@ Nav bottom position
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-
-/* -------------------------------
-Responsive Menu
-------------------------------- */
+/* === Responsive Menu === */
 
 @media (min-width: 768px) and (max-width: 991px) {
   .tt-nav .container {
@@ -1088,10 +1055,7 @@ Responsive Menu
   }
 }
 
-
-/*
-Alter logo visiblity
------------------------------------------------*/
+/* === Alter logo visiblity === */
 
 @media screen and (min-width: 768px) {
   .transparent-header .logo-dark {
@@ -1114,10 +1078,7 @@ Alter logo visiblity
   }
 }
 
-
-/*------------------------------------------------------------------
-Footer
--------------------------------------------------------------------*/
+/* === Footer === */
 
 .footer h2 {
   margin-bottom: 24px;
@@ -1146,9 +1107,7 @@ Footer
 }
 
 
-/*
-Back To Top
-----------------------------------------------------*/
+/* === Back To Top === */
 
 .footer .container {
   position: relative;
@@ -1168,10 +1127,7 @@ Back To Top
   color: inherit;
 }
 
-
-/* 
-Social Link Widget
------------------------------------------------- */
+/* === Social Link Widget === */
 
 .social-link {
   margin-bottom: 0;
@@ -1208,10 +1164,7 @@ Social Link Widget
   background: #03a9f4;
 }
 
-
-/* 
-Important Link Widget
------------------------------------------------- */
+/* === Important Link Widget === */
 
 .footer-list {
   padding: 0;
@@ -1237,10 +1190,7 @@ Important Link Widget
   color: #fff;
 }
 
-
-/* 
-Twitter Widget
------------------------------------------------- */
+/* === Twitter Widget === */
 
 .twitter-widget-wrapper a {
   color: #fff;
@@ -1270,10 +1220,7 @@ Twitter Widget
   font-size: 13px
 }
 
-
-/* 
-Subscription Widget
------------------------------------------------- */
+/* === Subscription Widget === */
 
 .primary-footer .widget .form-control {
   height: 40px;
@@ -1327,10 +1274,7 @@ Subscription Widget
   line-height: 36px;
 }
 
-
-/* 
-Tag Cloud Widget
------------------------------------------------- */
+/* === Tag Cloud Widget === */
 
 .widget-tags a {
   float: left;
@@ -1353,10 +1297,7 @@ Tag Cloud Widget
   }
 }
 
-
-/*------------------------------------------------------------------
-Footer 2
--------------------------------------------------------------------*/
+/* === Footer 2 === */
 
 .footer-two .primary-footer {
   padding: 90px 0;
@@ -1376,10 +1317,7 @@ Footer 2
   line-height: 40px;
 }
 
-
-/*------------------------------------------------------------------
-Footer 3
--------------------------------------------------------------------*/
+/* === Footer 3 === */
 
 .footer-three .primary-footer {
   padding: 90px 0 70px;
@@ -1422,10 +1360,7 @@ Footer 3
   }
 }
 
-
-/*------------------------------------------------------------------
-Footer 4
--------------------------------------------------------------------*/
+/* === Footer 4 === */
 
 .footer-four .social-link li+li {
   margin-left: 15px;
@@ -1506,10 +1441,7 @@ Footer 4
   }
 }
 
-
-/*------------------------------------------------------------------
-Footer 5
--------------------------------------------------------------------*/
+/* === Footer === */
 
 .footer-five .back-top {
   top: -30px;
@@ -1629,10 +1561,7 @@ Footer 5
   margin-top: -49px;
 }
 
-
-/*------------------------------------------------------------------
-Tab Common CSS
--------------------------------------------------------------------*/
+/* === Tab Common === */
 
 .nav-tabs>li>a,
 .nav-tabs.nav-justified>li>a {
@@ -1678,10 +1607,7 @@ Tab Common CSS
   line-height: 30px;
 }
 
-
-/*
-Border Bottom Tab
-------------------------------------------------------------*/
+/* === Border Bottom Tab === */
 
 .border-bottom-tab ul.nav-tabs {
   padding-left: 0;
@@ -1756,7 +1682,7 @@ Border Bottom Tab
 }
 
 
-/*Tab to Accordion*/
+/* == Tab to Accordion === */
 
 @media (max-width: 767px) {
   .border-bottom-tab .panel-body img.alignright,
@@ -1770,10 +1696,7 @@ Border Bottom Tab
   }
 }
 
-
-/*
-Border Tabs
-------------------------------------------------------------*/
+/* === Border Tabs === */
 
 .border-tab .nav-tabs>li {
   position: relative;
@@ -1802,8 +1725,7 @@ Border Tabs
   }
 }
 
-
-/*Border Background Tab*/
+/* == Border Background Tab == */
 
 .border-tab.primary-nav .nav-tabs>li>a,
 .border-tab.primary-nav .nav-tabs.nav-justified>li>a {
@@ -1816,8 +1738,7 @@ Border Tabs
   border-bottom: 3px solid #0072a5;
 }
 
-
-/*Border Transparent Tab*/
+/* === Border Transparent Tab === */
 
 .border-tab.transparent-nav .nav-tabs>li>a,
 .border-tab.transparent-nav .nav-tabs.nav-justified>li>a {
@@ -1838,10 +1759,7 @@ Border Tabs
   color: #03a9f4;
 }
 
-
-/*
-Border Box Tab
-------------------------------------------------------------*/
+/* === Border Box Tab=== */
 
 .border-box-tab .panel-body {
   padding: 30px 30px 0;
@@ -1864,10 +1782,7 @@ Border Box Tab
   }
 }
 
-
-/*
-Icon, Round And Square Tabs
-------------------------------------------------------------*/
+/* === Icons Round and Square Tab === */
 
 .icon-tab .nav-pills,
 .round-tab .nav-pills,
@@ -1962,10 +1877,7 @@ Icon, Round And Square Tabs
   }
 }
 
-
-/*
-Vertical Tab
-------------------------------------------------------------*/
+/* === Vertical Tab === */
 
 .vertical-tab .panel-body {
   padding: 0;
@@ -2016,10 +1928,7 @@ Vertical Tab
   }
 }
 
-
-/*------------------------------------------------------------------
-Pricing Table
--------------------------------------------------------------------*/
+/* === Pricing Table === */
 
 .pricing-table {
   margin-bottom: 30px;
@@ -2251,7 +2160,7 @@ Pricing Table
   line-height: 1.8em;
   font-size: 22px;
   color: #1e3a54;
-/*  padding: 6px 52px 0px 113px;*/
+  /*  padding: 6px 52px 0px 113px;*/
   font-weight: bold;
 }
 
@@ -2265,8 +2174,7 @@ Pricing Table
   display: block;
 }
 
-
-/* 5 column */
+/* === 5 Column === */
 
 .col-xs-5ths,
 .col-sm-5ths,
@@ -2347,7 +2255,7 @@ Pricing Table
 }
 
 
-/* ======== FORM STYLE ========= */
+/* === FORM STYLE === */
 
 .content-backdrop-box {
   display: -webkit-box;
@@ -2366,7 +2274,8 @@ Pricing Table
   left: 0;
   z-index: 20;
   max-height: calc(100vh - 120px);
-  margin: 20px 0;
+/*  margin: -22px 0;*/
+  margin-bottom: 100px;
 }
 
 .base-modal-content {
@@ -2385,9 +2294,9 @@ Pricing Table
   padding: 50px 40px 30px;
   border: 1px solid #e3e3e3;
   max-height: calc(100vh - 190px);
-  overflow: auto;
+/*  overflow: auto;*/
   position: relative;
-  text-align: center;
+/*  text-align: center;*/
 }
 
 .relative {
@@ -2550,4 +2459,252 @@ img {
     font-size: 16px;
     margin: 10px 0px 10px;
   }
+}
+
+
+/* === Checkbox == */
+
+.checkbox-custom label:after,
+.radio-custom label:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.checkbox-custom .cr,
+.radio-custom .cr {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #a9a9a9;
+  border-radius: .25em;
+  width: 1.3em;
+  height: 1.3em;
+  float: left;
+  margin-right: .5em;
+      top: 5px;
+}
+
+.radio-custom .cr {
+  border-radius: 50%;
+}
+
+.checkbox-custom .cr .cr-icon,
+.radio-custom .cr .cr-icon {
+  position: absolute;
+  font-size: .8em;
+  line-height: 0;
+  top: 50%;
+  left: 13%;
+}
+
+.radio-custom .cr .cr-icon {
+  margin-left: 0.04em;
+}
+
+.checkbox-custom label input[type="checkbox"],
+.radio-custom label input[type="radio"] {
+  display: none;
+}
+
+.checkbox-custom label input[type="checkbox"]+.cr>.cr-icon,
+.radio-custom label input[type="radio"]+.cr>.cr-icon {
+  transform: scale(3);
+  opacity: 0;
+}
+
+.checkbox-custom label input[type="checkbox"]:checked+.cr>.cr-icon,
+.radio-custom label input[type="radio"]:checked+.cr>.cr-icon {
+  transform: scale(1) rotateZ(0deg);
+  opacity: 1;
+}
+
+.checkbox-custom label input[type="checkbox"]:disabled+.cr,
+.radio-custom label input[type="radio"]:disabled+.cr {
+  opacity: .5;
+}
+
+.panel-default-custom {
+    width: 320px;
+}
+
+.btn-small-custom {
+    height: 33px;
+    padding: 0px 14px;
+    font-size: 12px;
+    line-height: 26px;
+    border-radius: 2px;
+    background-color: #03a9f4;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.panel-title-custom {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    color: #04a9f4;
+    font-weight: 500;
+}
+
+
+
+
+
+/* -----------------------------------------------------------------
+Feature Accordion
+--------------------------------------------------------------------*/
+.feature-accordion.panel-group .panel+.panel {
+    margin-top: 10px;
+}
+.feature-accordion .panel {
+    box-shadow: none;
+    border:0;
+    border-radius: 0;
+    background: transparent;
+  border: 1px solid #ddd;
+}
+.feature-accordion .panel .panel-heading {
+    position: relative;
+    padding: 0;
+}
+.feature-accordion .panel-title a{
+    display: block;
+    color: #fff;
+    padding: 16px;
+    border-radius: 4px;
+/*    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)*/
+}
+
+
+/*color change*/
+.feature-accordion.brand-accordion .panel-title a{
+    background-color: #fff;
+  color: #000
+}
+.feature-accordion.pink-accordion .panel-title a{
+    background-color: #ed145b;
+}
+.feature-accordion.purple-accordion .panel-title a{
+    background-color: #673ab7;
+}
+.feature-accordion.red-accordion .panel-title a{
+    background-color: #F6483F;
+}
+
+/*add any color you wish with .(colorName)-accordion class*/
+
+
+.feature-accordion .panel-title a.collapsed{
+	color: #202020;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.feature-accordion .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: 0;
+}
+
+.feature-accordion .panel-body {
+        padding: 18px 15px 38px;
+}
+
+
+/*
+Accordion Icon
+-----------------------------------------------------------------------------------*/
+.icon .panel .panel-heading a:after {
+    font-family: 'FontAwesome';
+    font-size: 24px;
+    width: 50px;
+    height: 99%;
+    line-height: 48px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*Angle Icon*/
+.angle-icon .panel .panel-heading a:after {
+    content: "\f107";
+}
+.angle-icon .panel .panel-heading a.collapsed:after {
+    content: "\f105";
+}
+
+
+/*Plus Icon*/
+.plus-icon .panel .panel-heading a:after {
+    content: "\f068";
+}
+.plus-icon .panel .panel-heading a.collapsed:after {
+    content: "\f067";
+}
+
+
+
+
+/* -----------------------------------------------------------------
+Flat Accordion
+-------------------------------------------------------------------- */
+.flat-accordion {
+	padding: 30px;
+}
+.flat-accordion .panel {
+    box-shadow: none;
+    border:0;
+    border-radius: 0;
+}
+.flat-accordion .panel .panel-heading {
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+}
+.flat-accordion .panel-title {
+    font-weight: 500;
+}
+.flat-accordion .panel-title a{
+    display: block;
+    color: #03a9f4;
+    padding: 10px 0;
+}
+
+/*color change*/
+.flat-accordion.brand-accordion .panel-title a{
+    color: #03a9f4;
+}
+.flat-accordion.pink-accordion .panel-title a{
+    color: #ed145b;
+}
+/*add any color you wish with .(colorName)-accordion class*/
+
+
+
+.flat-accordion .panel-title a.collapsed{
+	color: #202020;
+}
+
+.flat-accordion .panel-body {
+    padding: 15px 0;
+}
+
+
+
+/*
+Solid Background Style
+------------------------------------------------------------------------*/
+.flat-accordion.solid-bg .panel {
+    background-color: transparent;
+}
+.flat-accordion.solid-bg .panel-title a{
+    color: #fff;
+}
+.flat-accordion.solid-bg .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: rgba(255, 255, 255, 0.5);
+}
+.flat-accordion.solid-bg .panel-body {
+    color: #fff;
 }
