@@ -33,8 +33,9 @@
                         </div>
                         <div class="base-modal-content-box">
                             <form form="">
+                                
                                 <label class="label-center mt-10"><b>Credit Card Information</b></label>
-
+                                
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="group-input">
@@ -46,22 +47,41 @@
                                             </div>
                                         </div>
                                         <div class="group-input">
-                                            <script src="https://js.stripe.com/v3/"></script>
-                                            <form action="/charge" method="post" id="payment-form">
-
-                                                <div class="form-row">
-                                                    <div id="card-element">
-                                                        <!-- A Stripe Element will be inserted here. -->
-                                                    </div>
-                                                    <!-- Used to display form errors. -->
-                                                    <div id="card-errors" role="alert"></div>
+                                            <div class="input-icon">
+                                                <div>
+                                                    <span class="far fa-credit-card"></span>
                                                 </div>
-                                            </form>
+                                                <input name="date" placeholder="Credit Card Number" type="text">
+                                            </div>
                                         </div>
-                                        <p><b>Your Subscription:</b> $9.99 Monthly Fee, $0.65 Per Order Fee</p>
                                     </div>
-
                                 </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="group-input">
+                                            <div class="input-icon">
+                                                <div>
+                                                    <span class="far fa-calendar-alt"></span>
+                                                </div>
+                                                <input name="name" placeholder="Expiration" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group-input">
+                                            <div class="input-icon">
+                                                <div>
+                                                    <span class="far fa-credit-card"></span>
+                                                </div>
+                                                <input name="name" placeholder="CCV" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <p><b>Your Subscription:</b> $9.99 Monthly Fee, $0.65 Per Order Fee</p>
+                                
                                 <div class="mt-20 text-center">
                                     <a href="register-p1.html" class="waves-effect waves-light btn grey mr-10"><i class="fas fa-angle-left"></i> Back</a>
                                     <a href="register-p3.html" class="waves-effect waves-light btn">Next <i class="fas fa-angle-right"></i></a>
@@ -106,7 +126,67 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="js/menuzord.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/stripe.js"></script>
+    <script>
+        // Create a Stripe client.
+        var stripe = Stripe('pk_test_g6do5S237ekq10r65BnxO6S0');
+
+        // Create an instance of Elements.
+        var elements = stripe.elements();
+
+        // Custom styling can be passed to options when creating an Element.
+        // (Note that this demo uses a wider set of styles than the guide below.)
+        var style = {
+            base: {
+                color: '#32325d',
+                lineHeight: '18px',
+                fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+                fontSmoothing: 'antialiased',
+                fontSize: '16px',
+                '::placeholder': {
+                    color: '#aab7c4'
+                }
+            },
+            invalid: {
+                color: '#fa755a',
+                iconColor: '#fa755a'
+            }
+        };
+
+        // Create an instance of the card Element.
+        var card = elements.create('card', {
+            style: style
+        });
+
+        // Add an instance of the card Element into the `card-element` <div>.
+        card.mount('#card-element');
+
+        // Handle real-time validation errors from the card Element.
+        card.addEventListener('change', function(event) {
+            var displayError = document.getElementById('card-errors');
+            if (event.error) {
+                displayError.textContent = event.error.message;
+            } else {
+                displayError.textContent = '';
+            }
+        });
+
+        // Handle form submission.
+        var form = document.getElementById('payment-form');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            stripe.createToken(card).then(function(result) {
+                if (result.error) {
+                    // Inform the user if there was an error.
+                    var errorElement = document.getElementById('card-errors');
+                    errorElement.textContent = result.error.message;
+                } else {
+                    // Send the token to your server.
+                    stripeTokenHandler(result.token);
+                }
+            });
+        });
+    </script>
 
 </body>
 
