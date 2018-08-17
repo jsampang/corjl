@@ -1,60 +1,43 @@
-<syle>
-.checkbox-custom label:after,
-.radio-custom label:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.checkbox-custom .cr,
-.radio-custom .cr {
-  position: relative;
-  display: inline-block;
-  border: 1px solid #a9a9a9;
-  border-radius: .25em;
-  width: 1.3em;
-  height: 1.3em;
-  float: left;
-  margin-right: .5em;
-}
-
-.radio-custom .cr {
-  border-radius: 50%;
-}
-
-.checkbox-custom .cr .cr-icon,
-.radio-custom .cr .cr-icon {
-  position: absolute;
-  font-size: .8em;
-  line-height: 0;
-  top: 50%;
-  left: 13%;
-}
-
-.radio-custom .cr .cr-icon {
-  margin-left: 0.04em;
-}
-
-.checkbox-custom label input[type="checkbox"],
-.radio-custom label input[type="radio"] {
-  display: none;
-}
-
-.checkbox-custom label input[type="checkbox"]+.cr>.cr-icon,
-.radio-custom label input[type="radio"]+.cr>.cr-icon {
-  transform: scale(3);
-  opacity: 0;
-}
-
-.checkbox-custom label input[type="checkbox"]:checked+.cr>.cr-icon,
-.radio-custom label input[type="radio"]:checked+.cr>.cr-icon {
-  transform: scale(1) rotateZ(0deg);
-  opacity: 1;
-}
-
-.checkbox-custom label input[type="checkbox"]:disabled+.cr,
-.radio-custom label input[type="radio"]:disabled+.cr {
-  opacity: .5;
-}
-  
-  </syle>
+<div class="container">
+    <div class="content-backdrop-box">
+        <section class="base-modal-content">
+            <div class="relative">
+                <div class="brand">
+                    <span>
+                <img  alt="logo" src="https://alpha.corjl.com/cdn/images/login/d3035e/login.png">
+              </span>
+                </div>
+                <div class="base-modal-content-box">
+                    <form form="">
+                        <div class="group-input">
+                            <div class="input-icon">
+                                <div>
+                                    <span class="fa fa-user"></span>
+                                </div>
+                                <input name="name" placeholder="Enter Username" type="text">
+                            </div>
+                        </div>
+                        <div class="group-input">
+                            <div class="input-icon">
+                                <div>
+                                    <span class="fa fa-envelope"></span>
+                                </div>
+                                <input name="name" placeholder="Enter Email Address" type="text">
+                            </div>
+                        </div>
+                        <div class="checkbox-custom text-center">
+                            <label>
+                                <input type="checkbox" value="">
+                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                <span> I Agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></span>
+                            </label>
+                        </div>
+                        <div class="mt-20 text-center">
+                            <a href="register-p2.html" class="waves-effect waves-light btn">Submit</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
