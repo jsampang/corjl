@@ -2152,12 +2152,14 @@ header.sticky .menuzord-menu > li > a,
 }
 
 .bottom-bg03 {
-    background-image: url(https://www.corjl.com/cdn/images/base/c0186a/bottom-bg.svg);
-    background-size: cover;
+    background-image: url('../img/home-bottom-bg.svg');
+        background-size: cover;
     background-position: center top;
-    bottom: 0;
-    height: 100px;
+    top: 0;
+    height: 123px;
     z-index: 1;
+    transform: rotateY(180deg);
+      background-color: #fff;
     margin-bottom: -110px;
 }
 
@@ -2805,9 +2807,13 @@ img {
 
 .bg-home-top {
     background-image: url(../img/home-top-bg.svg);
-    background-position: center top;
+    background-size: 100% 61px;
     top: 0;
-    height: 98px;
-    z-index: 1;
+    height: 61px;
+    z-index: 10;
     background-color: transparent;
+}
+
+.home-section {
+  background-color: #cbefed;
 }
