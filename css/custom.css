@@ -2151,6 +2151,16 @@ header.sticky .menuzord-menu > li > a,
     margin-bottom: -110px;
 }
 
+.bottom-bg03 {
+    background-image: url(https://www.corjl.com/cdn/images/base/c0186a/bottom-bg.svg);
+    background-size: cover;
+    background-position: center top;
+    bottom: 0;
+    height: 100px;
+    z-index: 1;
+    margin-bottom: -110px;
+}
+
 .bg-cta2 {
     background-color: #f1f2f2;
 }
@@ -2791,4 +2801,13 @@ img {
 .ElementsApp .InputElement {
     font-family: inherit;
     font-size: 14px !important;
+}
+
+.bg-home-top {
+    background-image: url(../img/home-top-bg.svg);
+    background-position: center top;
+    top: 0;
+    height: 98px;
+    z-index: 1;
+    background-color: transparent;
 }
