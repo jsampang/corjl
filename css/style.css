@@ -70,7 +70,8 @@ a,
 /* ================ Typography ================== */
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Raleway', sans-serif!important;
+      font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+/*    font-family: 'Raleway', sans-serif!important;*/
     font-weight: 400;
     color: #202020;
     margin: 0 0 15px;

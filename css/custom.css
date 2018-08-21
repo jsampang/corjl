@@ -2152,15 +2152,32 @@ header.sticky .menuzord-menu > li > a,
 }
 
 .bottom-bg03 {
-    background-image: url('../img/home-bottom-bg.svg');
-        background-size: cover;
+    background-image: url(../img/bottom-bg3.svg);
+    background-size: cover;
     background-position: center top;
     top: 0;
-    height: 123px;
+    height: 144px;
     z-index: 1;
     transform: rotateY(180deg);
-      background-color: #fff;
     margin-bottom: -110px;
+}
+
+.bottom-bg04 {
+    background-image: url(../img/bottom-bg2.svg);
+    background-size: 100% 250px;
+    top: 0;
+    height: 250px;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+.bottom-bg05 {
+    background-image: url(../img/bottom-bg4.svg);
+    background-size: 100% 268px;
+    bottom: 0;
+    height: 268px;
+    z-index: 1;
+    transform: rotateX(180deg);
 }
 
 .bg-cta2 {
@@ -2816,4 +2833,32 @@ img {
 
 .home-section {
   background-color: #cbefed;
+}
+
+.et_pb_module_header {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    color: #1e3a54!important;
+    line-height: 1.2em;
+}
+
+.et_pb_header_content_wrapper {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: #1e3a54!important;
+    font-weight: 500;
+  
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.white-btn {
+    color: #ff3d6d!important;
+    background: #ffffff;
+}
+
+.white-btn:hover {
+    background-color: #fff;
 }
