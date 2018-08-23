@@ -161,9 +161,9 @@
 #header.transparent-header {
   background: #fff !important;
   z-index: 1050;
-        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
-    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
-    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
 }
 
 #header.transparent-header .menuzord .logo-brand {
@@ -2185,6 +2185,23 @@ header.sticky .menuzord-menu > li > a,
   transform: rotateX(180deg);
 }
 
+.bottom-bg06 {
+  background-image: url(../img/bottom-bg-5.svg);
+  background-size: 100% 66px;
+  top: 0;
+  height: 66px;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.bottom-bg07 {
+  background-image: url(../img/bottom-bg-6.svg);
+  background-size: 100% 71px;
+  bottom: 0;
+  height: 71px;
+  z-index: 1;
+}
+
 .bg-cta2 {
   background-color: #f1f2f2;
 }
@@ -2917,9 +2934,130 @@ h5 {
 }
 
 .gray-bg {
-    background-color: #f1f2f2; 
+  background-color: #f1f2f2;
+}
+
+.gradient-blue-bg {
+  background: #e0edeb;
+  background: -moz-linear-gradient(top, #e0edeb 60%, #c4ecea 100%);
+  background: -webkit-linear-gradient(top, #e0edeb 60%, #c4ecea 100%);
+  background: linear-gradient(to bottom, #e0edeb 60%, #c4ecea 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0edeb', endColorstr='#c4ecea', GradientType=0);
 }
 
 .light-blue-bg {
-    background-color: #E0EDEB;
+  background-color: #E0EDEB;
+}
+
+.section-padding-default {
+  padding: 110px 0px 0px;
+}
+
+
+/* Flex */
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-end li {
+  background-color: transparent;
+}
+
+.center {
+  justify-content: center;
+}
+
+.center li {
+  background-color: transparent;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-between li {
+  background-color: transparent;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-around li {
+  background-color: transparent;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-evenly li {
+  background-color: transparent;
+}
+
+.flex-item {
+  padding: 5px 10px 5px;
+  text-align: center;
+}
+
+.text-teal {
+  color: #00b2ad!important;
+}
+
+.text-26 {
+  font-size: 26px!important;
+}
+
+blockquote {
+  border-left: 5px solid #00b2ad!important;
+}
+
+
+/* custom bullet */
+
+ol.custom-bullet2 {
+  font-size: 16px;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+ul.custom-bullet {
+  margin-left: 33px;
+  font-size: 16px;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.custom-bullet li {
+  display: block;
+}
+
+.custom-bullet li:before {
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+  font-size: 11px;
+  float: left;
+  margin-top: -1px;
+  margin-left: -17px;
+  color: #191919;
+}
+
+.party-invitation {
+    background-blend-mode: multiply;
+    background-image: url(../img/small-business-tools-etsy-sellers.jpg)!important;
+    background-color: #5f5d2782!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
