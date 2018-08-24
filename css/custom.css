@@ -3052,38 +3052,32 @@ ul.custom-bullet {
   color: #191919;
 }
 
+.hero-bg-sm {
+  background-blend-mode: multiply;
+  background-color: #272d5fcc!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .party-invitation {
-    background-blend-mode: multiply;
-    background-image: url(https://www.corjl.com/cdn/images/party-invitation/9c97ae/small-business-tools-etsy-sellers.jpg)!important;
-    background-color: #272d5fcc!important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+  background-image: url(https://www.corjl.com/cdn/images/party-invitation/9c97ae/small-business-tools-etsy-sellers.jpg)!important;
 }
 
 .custom-shirt {
-    background-blend-mode: multiply;
-    background-image: url(https://www.corjl.com/cdn/images/t-shirt-clothing/371c66/t-shirt-design-online2.jpg)!important;
-    background-color: #272d5fcc!important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+  background-image: url(https://www.corjl.com/cdn/images/t-shirt-clothing/371c66/t-shirt-design-online2.jpg)!important;
 }
 
 .gift-tags-label {
-    background-blend-mode: multiply;
-    background-image: url(https://www.corjl.com/cdn/images/gift-tags-and-labels/6027ad/get-started-corjl1.png)!important;
-    background-color: #272d5fcc!important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+  background-image: url(https://www.corjl.com/cdn/images/gift-tags-and-labels/6027ad/get-started-corjl1.png)!important;
+}
+
+.mugs-and-products {
+  background-image: url(https://www.corjl.com/cdn/images/mugs-and-products/761ae1/coffee-mug.jpg)!important;
 }
 
 .home-icon-menu:before {
-  content:"\e021";
+  content: "\e021";
   font-family: 'Glyphicons Halflings';
   font-size: 14px;
   float: left;
