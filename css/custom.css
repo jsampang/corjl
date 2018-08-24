@@ -3054,10 +3054,39 @@ ul.custom-bullet {
 
 .party-invitation {
     background-blend-mode: multiply;
-    background-image: url(../img/small-business-tools-etsy-sellers.jpg)!important;
-    background-color: #5f5d2782!important;
+    background-image: url(https://www.corjl.com/cdn/images/party-invitation/9c97ae/small-business-tools-etsy-sellers.jpg)!important;
+    background-color: #272d5fcc!important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   
+}
+
+.custom-shirt {
+    background-blend-mode: multiply;
+    background-image: url(https://www.corjl.com/cdn/images/t-shirt-clothing/371c66/t-shirt-design-online2.jpg)!important;
+    background-color: #272d5fcc!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.gift-tags-label {
+    background-blend-mode: multiply;
+    background-image: url(https://www.corjl.com/cdn/images/gift-tags-and-labels/6027ad/get-started-corjl1.png)!important;
+    background-color: #272d5fcc!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.home-icon-menu:before {
+  content:"\e021";
+  font-family: 'Glyphicons Halflings';
+  font-size: 14px;
+  float: left;
+  margin-top: -1px;
+  margin-left: -17px;
 }
