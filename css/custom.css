@@ -2678,6 +2678,13 @@ img {
     background-color: #F6483F;
 }
 
+.feature-accordion.blue-accordion .panel-title a {
+    background-color: #03a9f4;
+}
+
+.feature-accordion.gray-accordion .panel-title a {
+    background-color: #6C6C6C;
+}
 
 /*add any color you wish with .(colorName)-accordion class*/
 
@@ -2946,6 +2953,10 @@ h5 {
 
 .light-blue-bg {
     background-color: #E0EDEB;
+}
+
+.blue-bg {
+    background-color: #cbeeed;
 }
 
 .section-padding-default {

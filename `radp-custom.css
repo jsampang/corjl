@@ -160,6 +160,9 @@
 #header.transparent-header {
     background: #fff !important;
     z-index: 1050;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
 }
 
 #header.transparent-header .menuzord .logo-brand {
@@ -1834,6 +1837,7 @@ header.sticky .menuzord-menu > li > a,
     color: #03a9f4;
     border: 1px solid #eee;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .icon-tab .nav > li > a .material-icons {
@@ -2151,6 +2155,52 @@ header.sticky .menuzord-menu > li > a,
     margin-bottom: -110px;
 }
 
+.bottom-bg03 {
+    background-image: url(https://www.corjl.com/cdn/images/home/7e1ed7/bottom-bg3.svg);
+    background-size: cover;
+    background-position: center top;
+    top: 0;
+    height: 144px;
+    z-index: 1;
+    transform: rotateY(180deg);
+    margin-bottom: -110px;
+}
+
+.bottom-bg04 {
+    background-image: url(https://www.corjl.com/cdn/images/home/616af6/bottom-bg2.svg);
+    background-size: 100% 139px;
+    top: 0;
+    height: 139px;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+.bottom-bg05 {
+    background-image: url(https://www.corjl.com/cdn/images/home/99eaf4/bottom-bg4.svg);
+    background-size: 100% 268px;
+    bottom: 0;
+    height: 268px;
+    z-index: 1;
+    transform: rotateX(180deg);
+}
+
+.bottom-bg06 {
+    background-image: url(https://www.corjl.com/cdn/images/how-it-works/821d67/bottom-bg-5.svg);
+    background-size: 100% 66px;
+    top: 0;
+    height: 66px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.bottom-bg07 {
+    background-image: url(https://www.corjl.com/cdn/images/how-it-works/de03e2/bottom-bg-6.svg);
+    background-size: 100% 71px;
+    bottom: 0;
+    height: 71px;
+    z-index: 1;
+}
+
 .bg-cta2 {
     background-color: #f1f2f2;
 }
@@ -2256,7 +2306,6 @@ header.sticky .menuzord-menu > li > a,
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-
 }
 
 .box-price-5col-body {
@@ -2581,6 +2630,7 @@ img {
     font-weight: 500;
 }
 
+
 /* === Feature Accordion === */
 
 .feature-accordion.panel-group .panel + .panel {
@@ -2608,6 +2658,7 @@ img {
     /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)*/
 }
 
+
 /*color change*/
 
 .feature-accordion.brand-accordion .panel-title a {
@@ -2627,6 +2678,7 @@ img {
     background-color: #F6483F;
 }
 
+
 /*add any color you wish with .(colorName)-accordion class*/
 
 .feature-accordion .panel-title a.collapsed {
@@ -2643,6 +2695,7 @@ img {
     padding: 18px 15px 38px;
 }
 
+
 /* === Accordion Icon === */
 
 .icon .panel .panel-heading a:after {
@@ -2657,6 +2710,7 @@ img {
     right: 0;
 }
 
+
 /*Angle Icon*/
 
 .angle-icon .panel .panel-heading a:after {
@@ -2667,6 +2721,7 @@ img {
     content: "\f105";
 }
 
+
 /*Plus Icon*/
 
 .plus-icon .panel .panel-heading a:after {
@@ -2676,6 +2731,7 @@ img {
 .plus-icon .panel .panel-heading a.collapsed:after {
     content: "\f067";
 }
+
 
 /* === Flat Accordion === */
 
@@ -2705,6 +2761,7 @@ img {
     padding: 10px 0;
 }
 
+
 /*color change*/
 
 .flat-accordion.brand-accordion .panel-title a {
@@ -2715,6 +2772,7 @@ img {
     color: #ed145b;
 }
 
+
 /*add any color you wish with .(colorName)-accordion class*/
 
 .flat-accordion .panel-title a.collapsed {
@@ -2724,6 +2782,7 @@ img {
 .flat-accordion .panel-body {
     padding: 15px 0;
 }
+
 
 /* === Solid Background Style === */
 
@@ -2745,9 +2804,10 @@ img {
 
 .panel-group-custom {
     margin-bottom: 20px;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
+
 
 /*
 .fa-circle:before {
@@ -2761,6 +2821,7 @@ img {
     margin-bottom: 21px;
     border-radius: 13px;
 }
+
 
 /* Custom Credit Card Input */
 
@@ -2791,4 +2852,234 @@ img {
 .ElementsApp .InputElement {
     font-family: inherit;
     font-size: 14px !important;
+}
+
+.bg-home-top {
+    background-image: url(https://www.corjl.com/cdn/images/home/cbcb76/home-top-bg.svg);
+    background-size: 100% 61px;
+    top: 0;
+    height: 61px;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.home-section {
+    background-color: #cbefed;
+}
+
+.et_pb_module_header {
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    color: #1e3a54 !important;
+    line-height: 1.2em;
+}
+
+.et_pb_header_content_wrapper {
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    color: #1e3a54 !important;
+    font-weight: 500;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.white-btn {
+    color: #ff3d6d !important;
+    background: #ffffff;
+}
+
+.white-btn:hover {
+    background-color: #fff;
+}
+
+.container-sm {
+    max-width: 72%;
+    margin: auto;
+}
+
+h3,
+h4,
+h5 {
+    line-height: 30px;
+}
+
+
+/* Video embedd responsive */
+
+.videoWrapperOuter {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoWrapperInner {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapperInner iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gray-bg {
+    background-color: #f1f2f2;
+}
+
+.gradient-blue-bg {
+    background: #e0edeb;
+    background: -moz-linear-gradient(top, #e0edeb 60%, #c4ecea 100%);
+    background: -webkit-linear-gradient(top, #e0edeb 60%, #c4ecea 100%);
+    background: linear-gradient(to bottom, #e0edeb 60%, #c4ecea 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0edeb', endColorstr='#c4ecea', GradientType=0);
+}
+
+.light-blue-bg {
+    background-color: #E0EDEB;
+}
+
+.section-padding-default {
+    padding: 110px 0px 0px;
+}
+
+
+/* Flex */
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-end li {
+    background-color: transparent;
+}
+
+.center {
+    justify-content: center;
+}
+
+.center li {
+    background-color: transparent;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-between li {
+    background-color: transparent;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-around li {
+    background-color: transparent;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-evenly li {
+    background-color: transparent;
+}
+
+.flex-item {
+    padding: 5px 10px 5px;
+    text-align: center;
+}
+
+.text-teal {
+    color: #00b2ad !important;
+}
+
+.text-26 {
+    font-size: 26px !important;
+}
+
+blockquote {
+    border-left: 5px solid #00b2ad !important;
+}
+
+
+/* custom bullet */
+
+ol.custom-bullet2 {
+    font-size: 16px;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+ul.custom-bullet {
+    margin-left: 33px;
+    font-size: 16px;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.custom-bullet li {
+    display: block;
+}
+
+.custom-bullet li:before {
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 11px;
+    float: left;
+    margin-top: -1px;
+    margin-left: -17px;
+    color: #191919;
+}
+
+.hero-bg-sm {
+    background-blend-mode: multiply;
+    background-color: #272d5fcc !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.party-invitation {
+    background-image: url(https://www.corjl.com/cdn/images/party-invitation/9c97ae/small-business-tools-etsy-sellers.jpg) !important;
+}
+
+.custom-shirt {
+    background-image: url(https://www.corjl.com/cdn/images/t-shirt-clothing/371c66/t-shirt-design-online2.jpg) !important;
+}
+
+.gift-tags-label {
+    background-image: url(https://www.corjl.com/cdn/images/gift-tags-and-labels/6027ad/get-started-corjl1.png) !important;
+}
+
+.mugs-and-products {
+    background-image: url(https://www.corjl.com/cdn/images/mugs-and-products/761ae1/coffee-mug.jpg) !important;
+}
+
+.home-icon-menu:before {
+    content: "\e021";
+    font-family: 'Glyphicons Halflings';
+    font-size: 14px;
+    float: left;
+    margin-top: -1px;
+    margin-left: -17px;
 }
