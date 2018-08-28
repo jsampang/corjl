@@ -2903,9 +2903,11 @@ img {
   background-color: #fff;
 }
 
-.container-sm {
-  max-width: 72%;
-  margin: auto;
+@media only screen and (min-width: 992px) {
+  .container-sm {
+    width: 72%;
+    margin: 0 auto;
+  }
 }
 
 h3,
@@ -3104,4 +3106,12 @@ ul.custom-bullet {
 .audio-controller {
   margin: auto;
   display: table;
+}
+
+.tos h5 {
+  font-weight: bold
+}
+
+.tos .custom-bullet {
+  font-size: 14px;
 }
