@@ -300,8 +300,8 @@ thead {
 }
 
 .input-field label {
-  color: #999;
-  top: 0;
+  color: #8c8c8c!important;
+  top: -15px;
   left: 0;
   font-size: 14px;
   line-height: 16px;
@@ -439,6 +439,7 @@ thead {
 
 
 /*padding-top*/
+
 .padding-top-30 {
   padding-top: 30px;
 }
