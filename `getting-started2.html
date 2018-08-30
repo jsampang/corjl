@@ -16,6 +16,47 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
   
+  <style>
+  /* The Modal (background) */
+.modal-video {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1050;; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+  </style>
+
 </head>
 
 <body id="top" class="has-header-search">
@@ -102,7 +143,9 @@
             <h4>We’ve created some useful quick-start videos to help you learn the Corjl platform. Watch the videos now to learn the 13 most critical skills. You can start in as little as 5 minutes. <br>The best learning comes from DOING so jump right into Corjl as soon as possible by signing up for your <a href="pricing.html">7-day free trial.</a></h4>
             <div class="mt-30 mb-30">
               <span class="mr-10">
-                <a href="#videos" target="_blank" class="waves-effect waves-light btn pink font-weight-bold">Start Watching the Videos</a>
+                <a href="#video" target="_blank" class="waves-effect waves-light btn pink font-weight-bold">Start Watching the Videos</a>
+                
+                <button id="myBtn">Open Modal</button>
               </span>
             </div>
           </div>
@@ -112,7 +155,7 @@
     <div class="bottom-bg06"></div>
   </section>
 
-  <section class="mt-50 mb-100" id="videos">
+  <section class="mt-50 mb-100">
     <div class="container">
       <div class="row">
         
@@ -122,10 +165,10 @@
               <h3>Section 1: <b>Getting Started</b></h3>
               <ul class="custom-bullet-video">
                 <li><a id="video" video-url="https://www.youtube.com/watch?v=iwTmbQFMGGc">Setting Up an Artboard</a></li>
-                <li><a id="video" video-url="https://www.youtube.com/watch?v=vK4IwaYH9T4">Preparing and Uploading Images</a></li>  
-                <li><a id="video" video-url="https://www.youtube.com/watch?v=1oEYQ5BT-8k">Uploading and Adding Fonts to Designs</a></li> 
-                <li><a id="video" video-url="https://www.youtube.com/watch?v=zon1bIk1gLU">Physical Product Settings</a></li>
-                <li><a id="video" video-url="https://www.youtube.com/watch?v=U_gFilSbiUA">Digital Item Settings</a></li>
+                <li><a href="">Preparing and Uploading Images</a></li>
+                <li><a href="">Uploading and Adding Fonts to Designs</a></li>
+                <li><a href="">Physical Product Settings</a></li>
+                <li><a href="">Digital Item Settings</a></li>
               </ul>
             </div>
           </div>
@@ -162,6 +205,82 @@
 
     </div>
   </section>
+  
+  
+  
+      <!-- The Modal -->
+      <div id="myModal" class="modal-video">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iwTmbQFMGGc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+
+  <!-- Section 2 --
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="border-tab transparent-nav corporate-demo-tab">
+
+
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#tab-10" class="waves-effect waves-dark" role="tab" data-toggle="tab">
+                  <h3>Section 1: <b>Getting Started</b></h3>
+                </a>
+              </li>
+              <li role="presentation"><a href="#tab-11" class="waves-effect waves-dark" role="tab" data-toggle="tab">
+                  <h3>Section 2: <b>Using the Tool</b></h3>
+                </a>
+              </li>
+              <li role="presentation"><a href="#tab-12" class="waves-effect waves-dark" role="tab" data-toggle="tab">
+                  <h3>Section 3: <b>Going Live</b></h3>
+                </a>
+              </li>
+            </ul>
+
+
+            <div class="panel-body">
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="tab-10">
+                  <div>
+                    <ul class="custom-bullet-video">
+                      <li><a href="">Setting Up an Artboard</a></li>
+                      <li><a href="">Preparing and Uploading Images</a></li>
+                      <li><a href="">Uploading and Adding Fonts to Designs</a></li>
+                      <li><a href="">Physical Product Settings</a></li>
+                      <li><a href="">Digital Item Settings</a></li>
+                    </ul>
+                  </div>
+
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="tab-11">
+                  <div>
+                    <ul class="custom-bullet-video">
+                      <li><a href="">Using Photos</a></li>
+                      <li><a href="">Creating a Design</a></li>
+                      <li><a href="">Customer and Demo View</a></li>
+                      <li><a href="">Downloading</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="tab-12">
+                  <p>Duis senectus mus condimentum nunc ac habitasse duis consectetur a arcu a accumsan cras et metus ultricies justo cum a bibendum. <a href="#">Egestas vestibulum blandit sem vestibulum curabitur</a> a vel aliquet gravida ullamcorper amet dictumst vestibulum a elementum proin id volutpat magna parturient. Id ac dui libero a ullamcorper euismod himenaeos a nam condimentum.</p>
+
+                  <p>Himenaeos a vestibulum morbi. <a href="#">Ullamcorper cras scelerisque</a> taciti lorem metus feugiat est lacinia facilisis id nam leo condimentum praesent id diam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-price-top" style="background-color: #cbefed"></div>
+  </section> -->
+
+
 
   <!-- Back to top -->
   <a href="#0" class="cd-top js-cd-top">Top</a>
@@ -202,6 +321,36 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="js/menuzord.js"></script>
   <script src="js/scripts.js"></script>
+  
+  <script>
+  // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+  
+  
+  </script>
 
 </body>
 
