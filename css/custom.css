@@ -4407,3 +4407,72 @@ ul.custom-bullet-video {
 .text-indigo {
       color: #2b65a2;
 }
+
+@media (min-width: 992px) {
+  .custom-height-5col {
+    height: auto!important;
+/*    height: 113px !important;*/
+    padding: 22px 21px !important;
+  }
+
+  .custom-height-4col {
+    height: auto!important;
+/*    height: 136px !important;*/
+    padding: 39px 21px !important;
+  }
+}
+
+.small-biz a{
+  font-weight: bold;
+}
+
+.small-biz a:before {
+    content: "\f16a";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    float: left;
+    margin: 0px 13px 0px 0px;
+}
+
+.small-biz .panel .panel-heading a:after {   
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    width: 50px;
+    height: 99%;
+    line-height: 48px;
+    text-align: center;
+    position: absolute;
+    top: 9px;
+    right: 0;
+}
+
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+
+.fancy span {
+  display: inline-block;
+  position: relative;
+}
+
+.fancy span:before,
+.fancy span:after {
+      content: "";
+    position: absolute;
+    height: 8px;
+    border-bottom: 1px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+    top: 33px;
+    width: 300px;
+}
+
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
