@@ -130,7 +130,7 @@ Version: 1.5
         
         
         $(function() {
-            $("#video,#video1,#video2").videoPopup({
+            $("#video,video1,video2").videoPopup({
                 autoplay: 1,
                 controlsColor: 'white',
                 showVideoInformations: 0,
