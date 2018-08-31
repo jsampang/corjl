@@ -3179,6 +3179,11 @@ ul.custom-bullet-video {
 
 }
 
+.featured-item a {    
+    color: #333;
+
+}
+
 .custom-bullet-video a:hover {    
     color: #6da2a0;
 
@@ -4389,4 +4394,16 @@ ul.custom-bullet-video {
     100%{
         opacity: 0;
     }
+}
+
+.text-blue {
+      color: #00b2ad;
+}
+
+.text-pink {
+      color: #ea37a8;
+}
+
+.text-indigo {
+      color: #2b65a2;
 }

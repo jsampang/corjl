@@ -837,7 +837,7 @@ $('a[href*="#"]')
         }, 1000, function() {
           var $target = $(target);
           $target.focus();
-          if ($target.is(":focusx")) {
+          if ($target.is(":focus")) {
             return false;
           } else {
             $target.attr('tabindex','-1');
