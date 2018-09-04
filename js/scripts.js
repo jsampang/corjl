@@ -729,6 +729,10 @@ $(function () {
  
             if (activePage == linkPage) { //compares the path of the current window to the path of the linked page in the nav item
                 $(this).parent().addClass('active'); //if the above is true, add the "active" class to the parent of the &lt;a&gt; which is the &lt;li&gt; in the nav list
+              
+               $(this).parents("li").addClass('active');
+              
+              
             }
         });
 });

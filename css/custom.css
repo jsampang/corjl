@@ -4476,3 +4476,34 @@ ul.custom-bullet-video {
 .fancy span:after {
   left: 100%;
   margin-left: 15px;
+}
+
+.offset:before {
+  display: block;
+  content: " ";
+  height: 75px;
+  margin-top: -75px;
+  visibility: hidden;
+}
+
+.small-biz-sub h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+ 
+}
+.small-biz-sub i {
+  font-size: 18px;
+  font-weight: bold;
+  color: #03a9f4;
+  margin-top: 30px
+}
+
+.small-biz-sub a:hover {
+  color:  #03a9f4;
+}
+
+.featured li {
+
+    padding: 0px 0px 0px!important;
+}
