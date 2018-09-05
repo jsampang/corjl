@@ -4556,3 +4556,25 @@ ul.custom-bullet-video {
   font-size: 23px;
   color: #03a9f4;
 }
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding: 20px 17px 17px;
+    font-size: 84%;
+    line-height: 14px;
+    border-radius: 3px;
+    word-wrap: break-word;
+    white-space: normal;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+}
+
