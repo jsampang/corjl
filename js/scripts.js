@@ -720,6 +720,7 @@ Version: 1.5
 
 })(jQuery);
 
+/* ======= Active Link ======= */
 
 $(function () {
     var url = window.location.pathname; //sets the variable "url" to the pathname of the current window
@@ -743,6 +744,7 @@ $(function () {
   });
 
 
+/* ======= Back to Top ======= */
 
 (function () {
 			var backTop = document.getElementsByClassName('js-cd-top')[0],
@@ -822,6 +824,7 @@ $(function () {
 			}
 		})();
 
+/* ======= Smooth Scroll ======= */
 
 $('a[href*="#"]')
   .not('[href="#"]')

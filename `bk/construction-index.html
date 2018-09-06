@@ -1015,35 +1015,7 @@
         </script>
 
 
-        <script>
-            /**
-             * ### HOW TO CREATE A VALID ID TO USE: ###
-             * Go to www.twitter.com and sign in as normal, go to your settings page.
-             * Go to "Widgets" on the left hand side.
-             * Create a new widget for what you need eg "user time line" or "search" etc.
-             * Feel free to check "exclude replies" if you don't want replies in results.
-             * Now go back to settings page, and then go back to widgets page and
-             * you should see the widget you just created. Click edit.
-             * Look at the URL in your web browser, you will see a long number like this:
-             * 613424231099953152
-             * Use this as your ID below instead!
-             */
-             
-            if ($('#twitterfeed').length > 0) {
-                var twitterWidgetConfig = {
-                    id: "613424231099953152", 
-                    domId: "twitterfeed",
-                    maxTweets: 2,
-                    enableLinks: true,
-                    showUser: true,
-                    showTime: true,
-                    showInteraction: false
-                };
 
-                twitterFetcher.fetch(twitterWidgetConfig);
-            }
-
-        </script>
 
     </body>
   

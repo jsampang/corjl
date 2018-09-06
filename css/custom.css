@@ -4578,3 +4578,20 @@ ul.custom-bullet-video {
   }
 }
 
+.btn-longtext {
+    padding: 5px 20px!important;
+    line-height: 20px!important;
+}
+
+.border-box-white {
+  border: 1px solid #dcdcdc;
+  padding: 15px;
+  min-height: 492px;
+}
+
+.border-box-gray {
+  border: 1px solid #dcdcdc;
+  padding: 15px;
+  background-color: #f8f8f8;
+  min-height: 492px;
+}
